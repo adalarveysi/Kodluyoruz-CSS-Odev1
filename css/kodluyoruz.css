@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:coral;
+    width: 100vw;
+    height: 5vh;
+}
+nav ul {
+    
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    list-style-type: none;
+    margin-top: 5px;
+}
+nav ul li a{
+    margin-right: 50px;
+    display: inline-block;
+    color: aliceblue;
+    height: 1.5rem;
+}
+nav ul li a:hover{
+    background-color: aliceblue;
+    color: coral;
+}
+#urunlerimiz{
+    color: black;
+    text-align: center;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+.image{
+    margin-bottom: 50px;
+}
+
+.urunler{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 500px;
+}
+
+.text-center{
+    text-align: center;
+}
+.yellowColor{
+    color: darkgoldenrod;
+}
+.marginTenPx{
+    margin: 10px auto;
+}
